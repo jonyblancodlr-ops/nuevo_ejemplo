@@ -27,3 +27,11 @@ def dividir():
         # .get() obtiene el valor e int () lo convierte a entero para la suma
     resultado_numerico = int(numero1.get()) / int(numero2.get())
     lbl_res.config(text = resultado_numerico)
+
+#Variables
+numero1 = tk.IntVar()
+numero2 = tk.IntVar()
+
+# INTERFAZ:
+#Titulo
+tk.Label(ventana, text = "Operaciones basicas", font = ("Arial",15)).place(x=120, y=20)
